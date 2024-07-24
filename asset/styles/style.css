@@ -172,6 +172,19 @@
         align-items: center;
         height: 170px;
     }
+    .images{
+        display: grid;
+      grid-template-columns: auto auto;
+      gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    .card{
+        /* background-color: red; */
+        border: 1px solid;
+        width: 200px;
+        height: 350px;
+    }
 }
 
 

@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+i{
+    color: white;
+}
 .container{
     /* height: 100vh; */
     display: flex;
@@ -59,7 +62,7 @@
     display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  background-color: #2196F3;
+  /* background-color: #2196F3; */
   padding: 10px;
 }
 .card{
@@ -123,8 +126,92 @@ input[type=button]:hover{
     background-color: #2a353f;
 
 }
+
+
+
+
+
+
+
+
+/* infomation section */
+.round-up-section{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 ;
+}
+.round-up-section-links{
+    /* background-color: blue; */
+    display: flex;
+    height: 45%;
+    gap:50px;
+}
+.round-up-section p{
+    font-size: larger;
+    color: #cdd3d8;
+
+}
+.round-up-section h1{
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: #cdd3d8;
+
+}
+.round-up-section-links-oluaka-institute-of-technology{
+    /* background-color: rgb(221, 221, 46); */
+    width: 30%;
+}
+.round-up-section-links-oluaka-institute-of-technolog{
+    display: none;
+    /* background-color: rgb(221, 221, 46); */
+    width: 30%;
+}
+.round-up-section-links-quick-links{
+    /* background-color: pink; */
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.anco{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #252c33; */
+    width: 120px;
+}
+.round-up-section a{
+    font-size: larger;
+    text-decoration: none;
+    color: #a7a7a7;
+    margin-bottom: 10px;
+}
+.round-up-section a:hover{
+    color: #eff0f1;
+}
+.round-up-section-links-contact-info{
+    /* background-color: green; */
+    width: 30%;
+}
+.bus-stop{
+    /* background-color: blue; */
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+
 footer{
-    background-color: #252c33;
+    background-color: #16181b;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -256,6 +343,34 @@ footer p{
         border: 1px solid;
         width: 200px;
         height: 350px;
+    }
+    .round-up-section{
+        background-color: rgb(0, 0, 0);
+        height: 750px;
+        display: flex;
+        align-items: first baseline;
+        padding: 40px 50px 0 ;
+    }
+    .round-up-section-links{
+        /* background-color: blue; */
+        display: flex;
+        height: 45%;
+        gap:50px;
+        flex-direction: column;
+    }
+    .round-up-section-links-oluaka-institute-of-technology{
+        /* background-color: rgb(221, 221, 46); */
+        display: none;
+        width: 30%;
+    }
+    .round-up-section-links-oluaka-institute-of-technolog{
+        display: block;
+        /* background-color: rgb(221, 221, 46); */
+        width: 80%;
+    }
+    .round-up-section-links-contact-info{
+        /* background-color: green; */
+        width: 80%;
     }
 }
 

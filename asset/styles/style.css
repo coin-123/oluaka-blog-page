@@ -71,6 +71,10 @@ i{
     width: 280px;
     height: 400px;
 }
+.card:hover{
+    box-shadow:1px 20px 5px black ;
+    cursor: pointer;
+}
 .images img{
     width: 100%;
     margin-bottom: 20px;
@@ -235,6 +239,44 @@ footer p{
 }
 
 
+/* next page section */
+
+.this-is-for-card1{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card2{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card3{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card4{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card5{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card6{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card7{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card8{
+    display: none;
+    /* visibility: hidden; */
+}
+.this-is-for-card9{
+    display: none;
+    /* visibility: hidden; */
+}
 
 
 
